@@ -1,0 +1,102 @@
+{
+    "menuOther": [
+        {
+            "id":"1",
+            "title": "Hambuerguesa simple",
+            "flavors": ["Res", "Pollo", "Vegetariana"],
+            "price": 20,
+            "image": "https://d701vexhkz032.cloudfront.net/media/images/menu-content/AR/sandwiches-de-carne/56e0840bcc6eb0.82482509_mc-nifica.png"
+
+        },
+        {   
+            "id":"2",
+            "title": "Hamburguesa doble",
+            "flavors": ["Res", "Pollo", "Vegetariana"],
+            "price": 40,
+            "image": "https://i2.wp.com/elmenu.com.mx/Demo/wp-content/uploads/2018/12/doble-piso.png?w=442&ssl=1"
+        },
+        {
+            "id":"3",
+            "title": "Papas fritas",
+            "flavors": null,
+            "price": 5,
+            "image": "https://i0.wp.com/diariolavoz.net/wp-content/uploads/2018/07/ketchup-752x440.jpg?resize=490%2C287&ssl=1"
+        },
+        {   
+            "id":"4",
+            "title": "Aros de cebolla",
+            "flavors": null,
+            "price": 5,
+            "image": "https://mejorconsalud.com/wp-content/uploads/2015/04/aros-de-cebolla-500x335.jpg"
+        },
+        {   
+            "id":"5",
+            "title": "Agua 500ml",
+            "flavors": null,
+            "price": 5,
+            "image": "http://clarovatten.com/wp-content/uploads/2015/06/aguaCiel-VARIOS-1-LT.jpg"
+        },
+        {   
+            "id":"6",
+            "title": "Agua 750ml",
+            "flavors": null,
+            "price": 7,
+            "image": "https://i.pinimg.com/564x/79/66/88/7966889c73774dc9f18cea84f1b6a73e.jpg"
+        },
+        {   
+            "id":"7",
+            "title": "Gaseosa 500ml",
+            "flavors": null,
+            "price": 7,
+            "image": "https://www.cornerdeli.mx/wp-content/uploads/2016/12/refrescos-500ml.jpg"
+        },
+        {   
+            "id":"8",
+            "title": "Gaseosa 750ml",
+            "flavors": null,
+            "price": 10,
+            "image": "http://www.trouville.uy/saltoclub/wp-content/uploads/2016/02/app_0019_Coca-Cola-1.5lts-1.jpg"
+        }
+    ],
+
+    "menuBreakefast": [
+        {
+            "id":"9",
+            "title": "Cafe americano",
+            "flavors": null,
+            "price": 5,
+            "image": ""
+        },
+        {
+            "id":"10",
+            "title": "Cafe americano",
+            "flavors": null,
+            "price": 5,
+            "image": ""
+        },
+        {
+            "id":"11",
+            "title": "Cafe con leche",
+            "flavors": null,
+            "price": 7,
+            "image": ""
+        },
+        {
+            "id":"12",
+            "title": "Sandwich de jamón y queso",
+            "flavors": null,
+            "price": 10,
+            "image": ""
+        },
+        {
+            "id":12,
+            "title": "Jugo de frutas natural",
+            "flavors": "Naranja",
+            "price": 7,
+            "image":""
+        }
+
+    ]
+}
+
+

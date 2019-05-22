@@ -1,26 +1,16 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import * as ROUTES from '../../constants/routes';
+import { Link } from 'react-router-dom';//importando un componente
+
 
 const Navigation = () => {
   return (
-    <nav className="main-menu">
-      <ul className="flex-row">
-        <li>
-          <Link to={ROUTES.HOME}>Inicio</Link>
-        </li>
-        <li>
-          <Link to={ROUTES.KITCHEN}>Cocina</Link>
-        </li>
-        <li>
-          <Link to={ROUTES.ORDER}>Orden</Link>
-        </li>
-        <li>
-          <Link to={ROUTES.SENT}>Terminado</Link>
-        </li>
-      </ul>
+    <nav className="navbar navbar-light bg-light">
+      <Link to='/'>Inicio</Link>
+      <Link to='/order'>Orden</Link>
+      <Link to='/kitchen'>Cocina</Link>
+      
     </nav>
   );
 };
-
+ 
 export default Navigation;

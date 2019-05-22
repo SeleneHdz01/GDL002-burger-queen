@@ -1,5 +1,15 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+ 
+ margin: 0;
+ padding: 0;
+
 }
+/* .Order {
+    height: 100vh;
+    opacity: .5;
+    background: url(https://images.pexels.com/photos/1036857/pexels-photo-1036857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
