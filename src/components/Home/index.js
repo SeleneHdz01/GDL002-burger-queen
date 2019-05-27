@@ -7,12 +7,12 @@ const Home = () => (
     <div className="container">
       <div className="row">
         <div className="col">
-          <a href="/order" className="btn btn-info">
+          <a href="/#order" className="btn btn-info">
             Mesero
           </a>
         </div>
         <div className="col">
-          <a href="/kitchen" className="btn btn-info">
+          <a href="/#kitchen" className="btn btn-info">
             Cocina
           </a>
         </div>

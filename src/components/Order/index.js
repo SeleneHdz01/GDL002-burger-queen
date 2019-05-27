@@ -35,11 +35,13 @@ class Order extends Component {
   filterCant() {
     this.state.menuOther
       .filter(element => element.cant > 0)
-      .map(e => this.state.newCommand.push(e));
-    console.log(this.state.newCommand);
+      .forEach(e =>
+        this.setState({ newCommand: [...this.state.newCommand, e] })
+      );
   }
 
   render() {
+    console.log(this.state.newCommand);
     const allMenu = this.state.menuOther.map((menuOther, i) => {
       return (
         <div className="col-md-8" key={i}>
