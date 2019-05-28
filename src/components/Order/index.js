@@ -36,6 +36,7 @@ class Order extends Component {
     this.state.menuOther
       .filter(element => element.cant > 0)
       .forEach(e =>
+        //spread operator ...
         this.setState({ newCommand: [...this.state.newCommand, e] })
       );
   }
